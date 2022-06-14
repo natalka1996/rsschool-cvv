@@ -1,54 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cv-html</title>
-  </head>
-  <body>
-    <div>
-      <h1>Naidzen Natalia</h1>
-      <h2>Junior Frontend Developer</h2>
-      <h2>Contact information:</h2>
-      <h3>Phone: +375336600399</h3>
-      <h3>E-mail:</h3>
-      <ul>
-        <li>
-          <a href="http://natachekavaya77@gmail.com">
-            natachekavaya77@gmail.com</a>
-        </li>
-        <li>
-          <a href="http://nata-chekavaya@mail.ru"> nata-chekavaya@mail.ru</a>
-        </li>
-      </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Rsschool-cv-html</title>
+</head>
+<body style="background: #d2e1d0;">
+  
+  <div class="container">
+    <div class="header">
+    <div class="title-block">
+    <h1 class="title" style="position: relative;
+    z-index: 1;">Natalia Naidzen <br>
+        Junior Frontend Developer
+    </h1>
     </div>
-    <div>
-      <h1>Briefly About Myself:</h1>
+    <div class="userpic"></div>
+    <img src="./assets/IMG_1109-01.jpeg" alt="foto">
+</div>
+    <div class="nav"id="main info">
+        <ul>
+            <li><a href="#Main-info">Main Info</a></li>
+            <li><a href="#About-me">About Me</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#code">Code</a></li>
+        </ul>
     </div>
-    <div>
-      <p>
-        I believe, that my ability to learn and to gain new skills will lead me
-        through this path of becoming a proficient Frontend Developer.
-      </p>
+    <div class="content-wraper">
+        <div class="content"id="Main info">
+            <h3>Main info</h3>
+            <p>I believe, that my ability to learn and to gain new skills will lead me
+              through this path of becoming a proficient Frontend Developer.
+            </p>
+           <h3>Project</h3>
+           <a href="https://github.com/natalka1996/rsschool-cv/blob/gh-pages/cv.md">github.com/natalka1996</a>
+        </div>
+        <div class="languages">
+            <h3>languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>A1</p>
+              </li>
+              <li>
+                <p class="languare-name">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="languare-name">Polish</p>
+                <p>Basic</p>
+              </li>
+              <li>
+                <p class="languare-name">Belarus</p>
+                <p> C2</p>
+              </li>
+            </ul>
+          </div>
+
+    <div class="content"id="contact"></div>
+    <div class="sidbar">
+        <h3>Contacts</h3>
+        <ul class="skills">
+            <li>Phone: +375336600399</li>
+            <li><a href="natachekavaya77@gmail.com">natachekavaya@gmail.com</a></li>
+        </ul>
+        <h3>Skills</h3>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>Git</li>
+            <li>CSS</li>
+        </ul>
     </div>
-    <div>
-      <h2>Skills and Proficiency:</h2>
-      <ul>
-        <li>HTML5, CSS3</li>
-        <li>Git GitHub</li>
-      </ul>
     </div>
-    <p>Код программы</p>
-    <p>
-      <code>
-        function checkParent (src, dest) {<br>
-        while (src != null) {<br>
-        if (src.tagName == dest) return src<br>
-        src = src.parentElement<br>
-        }<br>
-        return null<br>
-        }</code>
-    </p>
-  </body>
+    <div class="project">
+
+    </div>
+    <div class="content"id="code">
+        <div class="code">
+            <p>Code</p>
+            function checkParent (src, dest) {<br>
+                while (src != null) {<br>
+                if (src.tagName == dest) return src<br>
+                src = src.parentElement<br>
+                }<br>
+                return null<br>}
+        </div>
+    </div>
+    <!--подвал-->
+    <div class="footer">
+        <ul class="footer__nav__list">
+          <li class="git-link">
+            <img src="./assets/img/git.png" alt="my git" width="40" height="40">
+            <a href="https://github.com/natalka1996">github.com/natalka1996</a>
+          </li>
+          <li class="course-link">
+          <img src="./assets/rs_school-og.png" alt="rsschool" width="60" height="30">
+          <a href="https://rs.school/js">https://rs.school/js-stage0/</a>
+          </li>
+          <li class="year">
+            <span class="year-font">2022</span>
+          </li>
+        </ul>
+</div>
+
+</div>
+</body>
 </html>
