@@ -260,6 +260,11 @@ body {
   min-height: 160px;  
   padding: 20px;
 }
+.a {
+  position: absolute;
+  left: 4px;
+  bottom: 5px;
+}
 
 .change-quote {
   margin-bottom: 30px;
