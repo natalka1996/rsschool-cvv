@@ -16,9 +16,19 @@ body {
   font-size: 16px;
   color: #fff;
   text-align: center;
-  background: url("../assets/img/bg.jpg") center/cover, rgba(0, 0, 0, 0.5);
+  background: url("../assets/img/04.jpg") center/cover, rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
+}
+.one {
+  background-image: url(../assets/01.jpg);
+}
+.two {
+  background-image: url(../assets/вечер.jpg);
+
+}
+.three { 
+  background-image:url(../assets/ночь.jpg) ;
 }
 
 .header {
